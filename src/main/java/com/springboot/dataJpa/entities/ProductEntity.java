@@ -11,6 +11,8 @@ import java.time.LocalTime;
 @Entity
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(
         name = "products",
         uniqueConstraints = {
